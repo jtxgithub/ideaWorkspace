@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * hello控制器
+ */
 @RestController
 public class HelloController {
     @Value("${cupSize}")
