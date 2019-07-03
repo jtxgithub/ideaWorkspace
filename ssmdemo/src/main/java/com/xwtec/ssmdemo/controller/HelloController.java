@@ -23,6 +23,7 @@ public class HelloController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
+        System.out.print("================2.0分支");
         return "hello world";
     }
 
