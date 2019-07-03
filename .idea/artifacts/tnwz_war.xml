@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tnwz:war">
+    <output-path>$PROJECT_DIR$/tnwz/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tnwz</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tnwz.war">
+      <element id="artifact" artifact-name="tnwz:war exploded" />
+    </root>
+  </artifact>
+</component>
